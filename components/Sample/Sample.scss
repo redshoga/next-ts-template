@@ -1,6 +1,10 @@
 @import "../../assets/styles/variables.scss";
 
-
 .container {
+  color: $color-main;
+}
+
+// asdasd
+@mixin name {
   color: $color-main;
 }
