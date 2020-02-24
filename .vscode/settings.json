@@ -1,6 +1,10 @@
 {
   "editor.tabSize": 2,
 
+  // Disable default validator
+  "css.validate": false,
+  "scss.validate": false,
+
   // https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
   "[scss]": {
     "editor.codeActionsOnSave": {
