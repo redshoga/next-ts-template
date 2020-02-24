@@ -32,3 +32,14 @@ jobs:
       run: |
         npm install -g firebase-cli
         firebase deploy --only hosting --token $FIREBASE_TOKEN
+
+    # https://github.com/marketplace/actions/lighthouse-audit
+    - name: Lighthouse Audit
+      uses: jakejarvis/lighthouse-action@master
+      with:
+        url: 'https://ichioka.tokyo'
+    - name: Upload 'Lighthouse Audit' results as an artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: report
+        path: './report'
