@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Sample } from "../components/Sample/Sample"
 
 export default () => (
   <div>
@@ -9,6 +10,7 @@ export default () => (
 
     <main>
       hello next.js
+      <Sample sample="sample text"/>
     </main>
   </div>
 )
