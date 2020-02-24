@@ -1,3 +1,4 @@
+// ref: https://qiita.com/matkatsu8/items/f0a592f713e68a8d95b7
 module.exports = {
   "extends": [
     "eslint:recommended",
